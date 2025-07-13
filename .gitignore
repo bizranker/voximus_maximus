@@ -1,0 +1,8 @@
+# Exclude raw download and oversized files
+downloads/chatgpt_raw.zip
+_oversize/
+images/
+*.zip
+*.tar.gz
+*.bak
+
