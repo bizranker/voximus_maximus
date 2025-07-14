@@ -1,0 +1,10 @@
+nohup: ignoring input
+[Mon Jul 14 03:34:33 AM PDT 2025] 🧠 Dropwatch initiated. Watching /var/www/html/voximus/blobs.
+[Mon Jul 14 03:34:36 AM PDT 2025] ⚠️  New drop detected: /var/www/html/voximus/blobs/test.zip
+[Mon Jul 14 03:34:36 AM PDT 2025] 🗂️  Running /var/www/html/voximus/scripts/process_drop.sh on /var/www/html/voximus/blobs/test.zip...
+📦 Mon Jul 14 03:34:36 AM PDT 2025 Unpacking test.zip to /var/www/html/voximus/memory/test
+✅ Mon Jul 14 03:34:36 AM PDT 2025 Successfully extracted test.zip
+[Mon Jul 14 03:34:37 AM PDT 2025] ✅ process_drop.sh completed.
+y/test
+✅ Mon Jul 14 03:34:36 AM PDT 2025 Successfully extracted test.zip
+[Mon Jul 14 03:34:37 AM PDT 2025] ✅ process_drop.sh completed.
