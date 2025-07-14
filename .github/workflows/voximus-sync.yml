@@ -1,0 +1,19 @@
+name: Voximus Sync
+
+on:
+  push:
+    paths:
+      - 'exports/**'
+      - 'vox-flat.txt'
+      - 'scripts/**'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Show directory structure
+        run: tree -a -L 2
+
