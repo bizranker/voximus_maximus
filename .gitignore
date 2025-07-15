@@ -2,7 +2,45 @@
 downloads/chatgpt_raw.zip
 _oversize/
 images/
+
+# Compressed archives
 *.zip
 *.tar.gz
-*.bak
+*.tar
+*.7z
 
+# Backup and temporary files
+*.bak
+*.tmp
+*.swp
+*.swo
+*.swn
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# Node modules (if any future frontend work)
+node_modules/
+
+# Git-specific
+*.orig
+
+# === Voximus Memory Ignore ===
+blobs/
+memory/*/html/
+memory/*/*.zip
+logs/
+scripts/dropwatch_runtime_cache/
+
+# Optional: Ignore huge backups unless explicitly committed
+backup/
+
+blobs/
